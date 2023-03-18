@@ -1,0 +1,65 @@
+.userContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.imgContainer { 
+    padding: 10px;
+}
+
+.img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.userText {
+    position: relative;
+    line-height: 25px;
+    right: 300px;
+}
+
+.userLocation {
+    display:flex;
+    color:lightgray;
+    justify-content: space-between;
+}
+
+.buttonSeeMore {
+    width: 300px;
+    height: 100px;
+    margin-left: 300px;
+}
+
+.userFollowButton {
+    padding:10px;
+}
+
+.userStatus {
+    padding:30px;
+}
+
+.itemContainer { 
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin: 10px;
+    
+}
+
+.item:hover {
+    color: white;
+}
+
+.active {
+    transform: scale(1.5);
+    color: yellow;
+    margin:10px;
+    transition: 0.1s linear;
+}
